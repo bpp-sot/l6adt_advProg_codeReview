@@ -1,0 +1,4 @@
+{
+  "name": "Code Review Project",
+  "postCreateCommand": "pip install -r requirements.txt"
+}
