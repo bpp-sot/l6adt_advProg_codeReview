@@ -9,7 +9,7 @@ The trainee has created this repository, containing an early working version of 
 INSTRUCTIONS TO RUN:
 - Using the green 'Code' button to the top-right, select 'Codespaces'.
 - Open a new Codespace via the 'Create Codespace on main' option (or click on the name of a previous Codespace if it exists).
-- This repo has been set up so that the dependencies/set-up for our project are automatically loaded.  In theory this means that once the Codespace opens, all you need to do is open the 'app.py' file and click RUN (or execute 'python app.py' in the Terminal). You may be asked to install the Python extension for VSCode, but that is all the installation that should be needed.
+- This repo has been set up so that the dependencies/set-up for our project are automatically loaded.  In theory this means that once the Codespace opens, all you need to do is open the 'app.py' file and click RUN (or execute 'python app.py' in the Terminal). You may be asked to install the Python extension for VSCode!  In the event that flask doesn't seem to be installed/is not recognised, run the command 'pip install flask' in the Terminal to install Flask, agreeing to pop ups about creating a virtual environment etc. Ask in webinars if any issues.
 - When the Flask server app starts, you should see a pop-up and be able to click to open in your browser.
 - The app loads in a new browser window, where you can enter customer feedback data and save it.  The feedback is saved to the 'feedback.json' file.
 - If you want to STOP the app from running, press 'Ctrl + C' in the Terminal.
